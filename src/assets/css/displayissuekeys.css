@@ -1,0 +1,89 @@
+.disp_all_issu_keys {
+  margin: 0 25px;
+}
+.disp_all_issu_keys .disp_issu_keys {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+}
+.disp_all_issu_keys .disp_issu_keys .table_issu_hd {
+  position: relative;
+  background-color: #fff;
+  height: 100%;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+.disp_all_issu_keys .disp_issu_keys .table_issu_hd::-webkit-scrollbar {
+  width: 5px;
+}
+.disp_all_issu_keys .disp_issu_keys .table_issu_hd::-webkit-scrollbar-track {
+  background: transparent;
+}
+.disp_all_issu_keys .disp_issu_keys .table_issu_hd::-webkit-scrollbar-thumb {
+  background-color: #afafaf;
+  border-radius: 20px;
+  border: transparent;
+}
+.disp_all_issu_keys .disp_issu_keys .csv_down_circle {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00bf4d;
+  border-radius: 50px;
+  background-color: #00bf4d;
+  box-shadow: 0px 0px 5px 5px #e0e0e0;
+  transition: 0.3s;
+}
+.disp_all_issu_keys .disp_issu_keys .csv_down_circle a i {
+  color: #fff;
+  font-size: 20px;
+}
+.disp_all_issu_keys .disp_issu_keys .csv_down_circle:hover {
+  background-color: #05aa47;
+}
+.disp_all_issu_keys .disp_issu_keys .table_issu_hd table {
+  position: relative;
+  width: 100%;
+  border: 1px solid #eee;
+  border-collapse: collapse;
+}
+.disp_all_issu_keys .disp_issu_keys .table_issu_hd table tr {
+  border: 1px solid #eee;
+}
+.disp_all_issu_keys .disp_issu_keys .table_issu_hd table tr th {
+  background-color: #d5ffe6;
+  color: #126b35;
+  position: sticky;
+  top: 0;
+}
+.disp_all_issu_keys .disp_issu_keys .table_issu_hd table tr td,
+th {
+  padding: 13px 0;
+  text-align: center;
+}
+.disp_all_issu_keys .disp_issu_keys .no_keys {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.disp_all_issu_keys .disp_issu_keys .no_keys h1 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #05aa47;
+}
+.disp_all_issu_keys .disp_issu_keys .no_keys .svg {
+  width: 300px;
+}
+.disp_all_issu_keys .disp_issu_keys .no_keys .svg img {
+  width: 100%;
+}

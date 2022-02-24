@@ -1,0 +1,773 @@
+.main_profile {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+.main_profile .tcprofilecolumn {
+  flex: 0.35;
+  margin-right: 15px;
+}
+.main_profile .tcdisoncolumn {
+  flex: 0.65;
+}
+.main_profile .tcprofilecolumn .profile_sub_column {
+  width: 100%;
+}
+.main_profile .tcprofilecolumn .profile_sub_column .profil_box {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 15px 2px #eee;
+}
+.main_profile .tcprofilecolumn .profile_sub_column .profil_box .srow {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #3e9264, #008074);
+  color: #fff;
+}
+.main_profile .tcprofilecolumn .profile_sub_column .profil_box .srow h2 {
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.main_profile .tcprofilecolumn .profile_sub_column .profil_box .srow p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .srow
+  .srow_pro_pic {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  padding: 3px;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px 1px #dbdbdb;
+  margin-top: 20px;
+  margin-bottom: -50px;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .srow
+  .srow_pro_pic
+  img {
+  width: 100%;
+  height: 100%;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .srow
+  .srow_pro_pic
+  label {
+  position: absolute;
+  bottom: -4px;
+  right: -13px;
+  color: green;
+  font-size: 16px;
+  width: 23px;
+  height: 23px;
+  text-align: center;
+  padding: 1px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .srow
+  .srow_pro_pic
+  input {
+  display: none;
+}
+.main_profile .tcprofilecolumn .profile_sub_column .profil_box .brow {
+  margin-top: 50px;
+  padding: 15px 15px 25px;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .brow
+  .brow_info {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .brow
+  .brow_info
+  p:nth-child(1) {
+  margin-bottom: 12px;
+  color: #565454;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .brow
+  .brow_info
+  p:nth-child(2) {
+  font-size: 13px;
+  letter-spacing: 1.1px;
+  font-weight: 300;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .brow
+  .brow_info
+  p
+  i {
+  margin-right: 5px;
+  color: #3e9264;
+}
+.main_profile .tcprofilecolumn .profile_sub_column .profil_box .brow .tous {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .brow
+  .tous
+  .coscount {
+  text-align: center;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .brow
+  .tous
+  .coscount
+  h3 {
+  font-size: 18px;
+  color: #008074;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .profil_box
+  .brow
+  .tous
+  .coscount
+  p {
+  font-size: 13px;
+}
+.main_profile .tcprofilecolumn .profile_sub_column .bottom_box {
+  background-color: #fff;
+  padding: 25px;
+  box-shadow: 0px 0px 13px 2px #eee;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .bottom_box
+  .teach_details
+  p {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #008074;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .bottom_box
+  .teach_details
+  h3 {
+  margin-bottom: 15px;
+  text-indent: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+  display: inline-block;
+}
+.main_profile .tcprofilecolumn .profile_sub_column .bottom_box .teachskills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .bottom_box
+  .teachskills
+  .skill {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .bottom_box
+  .teachskills
+  .skill
+  h3 {
+  font-size: 13px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .bottom_box
+  .teachskills
+  .skill
+  .skills_ouuter {
+  width: 100%;
+  height: 10px;
+  background-color: #eee;
+}
+.main_profile
+  .tcprofilecolumn
+  .profile_sub_column
+  .bottom_box
+  .teachskills
+  .skill
+  .skills_ouuter
+  .skills_mid {
+  height: 100%;
+  background-image: linear-gradient(to right, #50bfa0, #85d0a7);
+  border-radius: 20px;
+}
+
+/*about section*/
+.main_profile .about_main_body {
+  position: relative;
+}
+.main_profile .about_us {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.main_profile .settings_us {
+  width: 100%;
+}
+.main_profile .inactivate {
+  opacity: 0;
+  display: none;
+  user-select: none;
+}
+.main_profile .activate {
+  display: block;
+  opacity: 1;
+  user-select: inherit;
+}
+.main_profile .tcdisoncolumn .about_header {
+  width: 100%;
+  padding: 8px 3px;
+  background-color: #fff;
+  border-bottom: 2px solid #eee;
+}
+.main_profile .tcdisoncolumn .about_header ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.main_profile .tcdisoncolumn .about_header ul li {
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  color: #008074;
+}
+.main_profile .tcdisoncolumn .about_header ul li i {
+  margin-right: 10px;
+  color: #008074;
+}
+.main_profile .tcdisoncolumn .about_body {
+  padding: 25px;
+  background-color: #fff;
+}
+.main_profile .tcdisoncolumn .about_body h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.main_profile .tcdisoncolumn .about_body .ab_main_card {
+  width: 100%;
+  margin: 25px 0;
+  display: flex;
+}
+.main_profile .tcdisoncolumn .about_body .ab_main_card .ab_card {
+  flex: 1;
+  margin-right: 10px;
+}
+.main_profile .tcdisoncolumn .about_body .ab_main_card .ab_card:last-child {
+  margin: 0;
+}
+.main_profile .tcdisoncolumn .about_body .ab_main_card .ab_card:hover {
+  animation: 1s shade linear infinite alternate;
+}
+@keyframes shade {
+  0% {
+    color: #055850;
+  }
+  100% {
+    color: #028f81;
+  }
+}
+.main_profile .tcdisoncolumn .about_body .ab_main_card .ab_card h3 {
+  font-size: 15px;
+  color: #50bfa0;
+}
+.main_profile .tcdisoncolumn .about_body .ab_main_card .ab_card h4 {
+  font-size: 13.5px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.main_profile .tcdisoncolumn .about_body .disdis {
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.main_profile .tcdisoncolumn .about_body .disdis p {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 25px;
+  color: #565454;
+}
+.main_profile .tcdisoncolumn .about_body .ac_education,
+.ac_experience {
+  margin-bottom: 35px;
+}
+.main_profile .tcdisoncolumn .about_body .ac_education h4,
+.ac_experience h4 {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings {
+  width: 100%;
+  padding: 25px;
+  background-color: #fff;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .ac_det h2 {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .ac_det .sectpr {
+  display: flex;
+  align-items: center;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .ac_det .sectpr p {
+  flex: 1;
+  position: relative;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .ac_det
+  .sectpr
+  p:nth-child(1) {
+  margin-right: 15px;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .ac_det
+  .sectpr:nth-child(3)
+  p {
+  margin: 0;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .ac_det
+  .sectpr:nth-child(4)
+  p {
+  margin: 0;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .ac_det
+  .sectpr:nth-child(5)
+  p {
+  margin: 0;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .ac_det .sectpr p label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .ac_det .sectpr p input,
+.ac_det .sectpr p textarea {
+  width: 100%;
+  padding: 9px 5px;
+  border: 1px solid #d6d5d5;
+  outline: none;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .ac_det
+  .sectpr
+  p
+  input:hover {
+  border-color: green;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .ac_det
+  .sectpr
+  p
+  input:focus {
+  border-color: green;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .skills_sec {
+  width: 100%;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .skills_sec .adSk {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  border-bottom: 2px solid #eee;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .skills_sec .adSk h3,
+i {
+  font-size: 15px;
+  color: #008074;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .skills_sec .adSk i {
+  cursor: pointer;
+  font-size: 19px;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .skills_sec .sk_sec {
+  width: 100%;
+  margin: 35px auto 20px;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .skills_sec .sk_sec .sk_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .nirow
+  .nisec {
+  width: 100%;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .nirow
+  .nisec
+  input {
+  width: 96%;
+  padding: 9px 3px;
+  border: 1px solid #d6d5d5;
+  outline: none;
+  margin-right: 8px;
+  transition: 0.5s;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .nirow
+  .nisec
+  i {
+  font-size: 16px;
+  cursor: pointer;
+  color: red;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .in_sec {
+  flex: 0.5;
+  margin-right: 25px;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .in_sec
+  input {
+  width: 100%;
+  padding: 8px 3px;
+  border: 1px solid #d6d5d5;
+  outline: none;
+  transition: 0.3s;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .range_sec {
+  flex: 0.5;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .range_sec
+  .subragesec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .range_sec
+  .subragesec
+  input[type="range"] {
+  width: 100%;
+  margin-right: 10px;
+  -webkit-appearance: none;
+  height: 5px;
+  border: 1px solid #008074;
+  outline: none;
+  border-radius: 20px;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .range_sec
+  .subragesec
+  input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #07a173;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .nirow
+  input:hover {
+  border-color: green;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .range_sec
+  .subragesec
+  span {
+  margin-right: 15px;
+  font-size: 13px;
+  color: #008074;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .range_sec
+  .subragesec
+  button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  cursor: pointer;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .skills_sec
+  .sk_sec
+  .sk_row
+  .range_sec
+  .subragesec
+  button
+  i {
+  color: #ea6464;
+  font-size: 16px;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .pro_edit_sub {
+  margin: 35px 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .pro_edit_sub button {
+  width: 150px;
+  padding: 9px;
+  border: none;
+  outline: none;
+  background-color: #13b56a;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .pro_edit_sub button:hover {
+  background-color: #13a15f;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .set_password {
+  width: 100%;
+  margin: 15px 0;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .set_password p {
+  position: relative;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .set_password h2 {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .set_password .reset_pw {
+  width: 100%;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .set_password
+  .reset_pw
+  label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .set_password
+  .reset_pw
+  input {
+  width: 100%;
+  padding: 9px 5px;
+  margin-bottom: 15px;
+  border: 1px solid #d6d5d5;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .set_password
+  .reset_pw
+  input:hover {
+  border-color: green;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .set_password
+  .reset_pw
+  input:focus {
+  border-color: green;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .set_password .butset {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .set_password .butset button {
+  width: 150px;
+  padding: 9px;
+  border: none;
+  outline: none;
+  background-color: #13b56a;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.main_profile
+  .tcdisoncolumn
+  .tc_profile_settings
+  .set_password
+  .butset
+  button:hover {
+  background-color: #13a15f;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings p .tip {
+  font-size: 11px;
+  position: absolute;
+  bottom: -13px;
+  right: 0;
+  padding: 5px 8px;
+  background-color: #fb01010d;
+  color: red;
+  border-radius: 2px;
+  z-index: 100;
+  transition: opacity 0.9s;
+  text-transform: capitalize;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings p .hidetip {
+  opacity: 0;
+  user-select: none;
+}
+.main_profile .tcdisoncolumn .tc_profile_settings .comtip {
+  font-size: 13px;
+  margin-bottom: 12px;
+  color: red;
+}

@@ -1,0 +1,123 @@
+.siup_body {
+  width: 100%;
+  height: calc(100vh - 117px);
+  display: flex;
+  align-items: center;
+}
+.siup_body .siup_column {
+  flex: 1;
+}
+.siup_body .siup_column .svg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siup_body .siup_column .svg img {
+  width: 400px;
+  height: 100%;
+}
+.siup_body .siup_column:nth-child(2) {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siup_body .siup_column .siup_form {
+  width: 650px;
+  font-family: "Montserrat", sans-serif;
+}
+.siup_body .siup_column .siup_form h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.siup_body .siup_column .siup_form label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #09a347;
+}
+.siup_body .siup_column .siup_form .sect:nth-child(1),
+.siup_form .sect:nth-child(4) {
+  display: flex;
+}
+.siup_body .siup_column .siup_form .sect:nth-child(1) p,
+.siup_form .sect:nth-child(4) p {
+  flex: 1;
+}
+.siup_body .siup_column .siup_form .sect p {
+  position: relative;
+}
+.siup_body .siup_column .siup_form .sect:nth-child(1) p:nth-child(1),
+.siup_form .sect:nth-child(4) p:nth-child(1) {
+  margin-right: 20px;
+}
+.siup_body .siup_column .siup_form input {
+  width: 100%;
+  padding: 9px 4px;
+  margin-bottom: 14px;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+.siup_body .siup_column .siup_form input.error {
+  border-color: #fb010196;
+}
+.siup_body .siup_column .siup_form input.error:hover {
+  border-color: #d3040496;
+}
+.siup_body .siup_column .siup_form input:hover {
+  border-color: green;
+}
+.siup_body .siup_column .siup_form input:focus {
+  border-color: green;
+}
+.siup_body .siup_column .siup_form .but {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.siup_body .siup_column .siup_form .but button {
+  width: 170px;
+  padding: 10px;
+  border: none;
+  background-color: #00bf4d;
+  color: #fff;
+  font-weight: 600;
+  border: 3px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.siup_body .siup_column .siup_form .but .in {
+  font-size: 13px;
+  text-align: left;
+}
+.siup_body .siup_column .siup_form .but .in a {
+  color: #09a347;
+  text-decoration: none;
+  font-weight: 500;
+}
+.siup_body .siup_column .siup_form .sect p .tip {
+  font-size: 11px;
+  position: absolute;
+  bottom: -13px;
+  right: 0;
+  padding: 5px 8px;
+  background-color: #fb01010d;
+  color: red;
+  border-radius: 2px;
+  z-index: 100;
+  transition: opacity 0.9s;
+  text-transform: capitalize;
+}
+.siup_body .siup_column .siup_form .sect p .hidetip {
+  opacity: 0;
+  user-select: none;
+}

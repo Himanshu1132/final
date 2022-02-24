@@ -1,0 +1,26 @@
+.empty {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.empty h3 {
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #00a959;
+}
+.empty img {
+  width: 500px;
+  animation: opa 1s alternate infinite;
+}
+@keyframes opa {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}

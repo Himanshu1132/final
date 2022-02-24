@@ -1,0 +1,180 @@
+.all_st_subs {
+  width: 100%;
+  height: 100%;
+}
+.all_st_subs .pagetop {
+  width: 100%;
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.all_st_subs .pagetop h1 {
+  font-size: 33px;
+  font-weight: 500;
+  color: #13a15f;
+  flex: 0.3;
+  text-transform: uppercase;
+}
+.all_st_subs .pagetop .search_row {
+  flex: 0.7;
+  display: flex;
+  justify-content: flex-end;
+}
+.all_st_subs .pagetop .search_row input[type="text"] {
+  padding: 12px;
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid #85e9ba;
+  border-right: transparent;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline: none;
+}
+.all_st_subs .pagetop .search_row button {
+  width: 60px;
+  background-color: #fff;
+  border: 1px solid #85e9ba;
+  border-left: transparent;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.all_st_subs .all_sub_body {
+  padding-top: 25px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 350px));
+  grid-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.all_st_subs .all_sub_body .al_sub_card {
+  height: 350px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.all_st_subs .all_sub_body .al_sub_card:hover {
+  box-shadow: 0px 0px 13px 11px #eee;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row {
+  position: relative;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row .image_sub {
+  height: 170px;
+  background: linear-gradient(150deg, #14df14, black);
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row .image_sub img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  opacity: 0.75;
+  transition: 0.5s ease-in-out;
+}
+.all_st_subs .all_sub_body .al_sub_card:hover .sub_card_row .image_sub img {
+  filter: blur(2px);
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_ins_pro {
+  position: absolute;
+  bottom: -15px;
+  right: 0%;
+  transform: translateX(-50%);
+  width: 65px;
+  height: 65px;
+  transition: 0.8s ease;
+}
+.all_st_subs .all_sub_body .al_sub_card:hover .sub_ins_pro {
+  right: 10%;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_ins_pro .ins_outer {
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  border-radius: 50%;
+  border: 2px solid #13a15f;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_ins_pro img {
+  width: 100%;
+  height: 100%;
+}
+.all_st_subs .all_sub_body .al_sub_card a {
+  color: #000;
+  text-decoration: none;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row:nth-child(2) {
+  height: 130px;
+  padding: 10px 5px 5px 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row:nth-child(2) h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #09a347;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row:nth-child(2) p {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-bottom: 8px;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row:nth-child(2) .sub_type {
+  margin-top: 8px;
+  width: 100%;
+}
+.all_st_subs
+  .all_sub_body
+  .al_sub_card
+  .sub_card_row:nth-child(2)
+  .sub_type
+  ul {
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.all_st_subs
+  .all_sub_body
+  .al_sub_card
+  .sub_card_row:nth-child(2)
+  .sub_type
+  ul
+  li {
+  font-size: 13px;
+}
+.all_st_subs
+  .all_sub_body
+  .al_sub_card
+  .sub_card_row:nth-child(2)
+  .sub_type
+  ul
+  li
+  i {
+  margin-right: 5px;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row:nth-child(3) {
+  height: 50px;
+  width: 100%;
+  padding: 0px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  background-color: #f8f8f8;
+  color: #0c6b32;
+}
+.all_st_subs .all_sub_body .al_sub_card .sub_card_row:nth-child(3) h3 {
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}

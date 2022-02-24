@@ -1,0 +1,74 @@
+@media screen and (max-width: 950px) {
+  .models {
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+  }
+  .models .md_course_desc {
+    order: 1;
+    position: initial;
+    top: 0;
+    height: auto;
+  }
+  .models .md_course_desc .colCourseView {
+    display: flex;
+    height: auto;
+    min-height: 20vh;
+    overflow: hidden;
+  }
+  .models .md_all_models {
+    order: 2;
+  }
+  .models .md_course_desc .course_desc_head {
+    flex: 0.5;
+    margin-right: 8px;
+  }
+  .models .md_course_desc .course_desc_head h3 {
+    display: none;
+  }
+  .models .md_course_desc .course_desc_body {
+    flex: 0.5;
+    height: 100%;
+  }
+  .models .md_course_desc .course_desc_head .course_pic {
+    height: 150px;
+    flex: 0.8;
+  }
+  .models .md_course_desc img {
+    object-fit: cover;
+  }
+  .models .md_course_desc .course_desc_body .course_short_desc {
+    flex: 0.5;
+    height: auto;
+    min-height: 100%;
+  }
+  .models .md_course_desc .course_desc_body .course_all_student {
+    display: none;
+  }
+}
+@media screen and (max-width: 612px) {
+  .models .md_course_desc .course_desc_head .course_pic .cos_options button {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .models
+    .md_course_desc
+    .course_desc_head
+    .course_pic
+    .cos_options
+    button
+    span {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .models .md_all_models .models_en_nav ul {
+    flex-wrap: wrap;
+  }
+  .models .md_course_desc .colCourseView {
+    display: block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,156 @@
+@media screen and (max-width: 1300px) {
+  .main_profile .tcdisoncolumn .about_body .ab_main_card {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main_profile
+    .tcdisoncolumn
+    .tc_profile_settings
+    .skills_sec
+    .sk_sec
+    .nirow
+    .nisec
+    input {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 880px) {
+  .main_profile {
+    display: block;
+  }
+  .main_profile .tcprofilecolumn {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .main .main_column:first-child {
+    position: fixed;
+    z-index: 300;
+    width: 260px;
+    box-shadow: 0px 0px 18px 4px #d6d1d1;
+  }
+  .model_page .on_model_page {
+    width: 100%;
+    height: 500px;
+    display: block;
+    padding: 3px;
+  }
+  .model_page .on_model_page .model_content {
+    width: 95%;
+  }
+  .model_page .on_model_page .image_crop_container {
+    width: 100%;
+  }
+  .model_page .on_model_page .close_but button {
+    background-color: #0ead3f;
+  }
+  .model_page .on_model_page .close_but button i {
+    color: #fff;
+  }
+  .model_page .cropup {
+    width: 95%;
+  }
+  .model_page .on_model_page .preview_container img {
+    width: 93%;
+    height: 93%;
+  }
+  .model_page .on_model_page .preview_container svg {
+    width: 210px;
+    height: 210px;
+    overflow: initial;
+  }
+  .model_page .on_model_page .preview_container svg circle {
+    width: 210px;
+    height: 210px;
+    cx: 100;
+    cy: 100;
+    r: 104;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main_profile .tcdisoncolumn .about_body .ab_main_card {
+    display: block;
+  }
+  .main_profile .tcdisoncolumn .about_body .ab_main_card .ab_card {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .main_profile
+    .tcdisoncolumn
+    .tc_profile_settings
+    .skills_sec
+    .sk_sec
+    .nirow
+    .nisec
+    input {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main_profile .tcprofilecolumn .profile_sub_column .profil_box .srow h2 {
+    text-align: center;
+  }
+  .my_row {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main_profile .tcprofilecolumn {
+    margin-right: 0;
+  }
+  .main .main_column .sub_column {
+    padding: 0;
+  }
+  .main_profile .tcdisoncolumn .tc_profile_settings .ac_det .sectpr {
+    display: block;
+  }
+  .main_profile
+    .tcdisoncolumn
+    .tc_profile_settings
+    .ac_det
+    .sectpr
+    p:nth-child(1) {
+    margin-right: 0;
+  }
+  .my_row {
+    display: block;
+  }
+  .my_row .outer:nth-child(1) {
+    margin: 0;
+  }
+  .main_profile .tcdisoncolumn .about_body {
+    padding: 5px;
+    width: 100%;
+  }
+  .main_profile .tcdisoncolumn .about_header ul {
+    display: block;
+  }
+  .main_profile .tcdisoncolumn .about_header ul li {
+    width: 100%;
+    text-align: left;
+  }
+  .main_profile .tcprofilecolumn .profile_sub_column .bottom_box {
+    padding: 25px 5px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 250px) {
+  .main_profile
+    .tcprofilecolumn
+    .profile_sub_column
+    .bottom_box
+    .teach_details
+    h3 {
+    font-size: 13px;
+    overflow-wrap: break-word;
+    text-indent: initial;
+  }
+  .main_profile .tcdisoncolumn .about_body .ab_main_card .ab_card h4 {
+    font-size: 12px;
+    overflow-wrap: break-word;
+  }
+  .my_row {
+    display: none;
+  }
+}

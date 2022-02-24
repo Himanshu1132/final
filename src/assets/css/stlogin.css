@@ -1,0 +1,122 @@
+.login_body {
+  width: 100%;
+  height: calc(100vh - 93px);
+  display: flex;
+}
+.login_body .login_column {
+  flex: 1;
+  height: 100%;
+}
+.login_body .login_column .svg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_body .login_column .svg img {
+  width: 400px;
+  height: 100%;
+}
+.login_body .login_column:nth-child(2) {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_body .login_column .login_form {
+  width: 650px;
+  padding: 40px 35px;
+  font-family: "Montserrat", sans-serif;
+}
+.login_body .login_column .login_form .logpic {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.login_body .login_column .login_form .logpic img {
+  width: 100px;
+}
+.login_body .login_column .login_form h2 {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login_body .login_column .login_form p {
+  position: relative;
+}
+.login_body .login_column .login_form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #09a347;
+}
+.login_body .login_column .login_form input {
+  width: 100%;
+  padding: 9px 4px;
+  margin-bottom: 12px;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  outline: none;
+  font-size: 15px;
+  transition: border-color 0.5s;
+}
+.login_body .login_column .login_form input.error {
+  border-color: #fb010196;
+}
+.login_body .login_column .login_form input.error:hover {
+  border-color: #d3040496;
+}
+.login_body .login_column .login_form input:hover {
+  border-color: green;
+}
+.login_body .login_column .login_form input:focus {
+  border-color: green;
+}
+.login_body .login_column .login_form .but {
+  margin-top: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+.login_body .login_column .login_form .but input {
+  width: 150px;
+  background-color: #00bf4d;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.login_body .login_column .login_form .but p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.login_body .login_column .login_form .but p a {
+  text-decoration: none;
+  color: #037b33;
+}
+.login_body .login_column .login_form p .tip {
+  font-size: 11px;
+  position: absolute;
+  bottom: -13px;
+  right: 0;
+  padding: 5px 8px;
+  background-color: #fb01010d;
+  color: red;
+  border-radius: 2px;
+  z-index: 100;
+  transition: opacity 0.9s;
+  text-transform: capitalize;
+}
+.login_body .login_column .login_form p .hidetip {
+  opacity: 0;
+  user-select: none;
+}
+.login_body .login_column .login_form .comtip {
+  font-size: 13px;
+  margin-bottom: 12px;
+  color: red;
+}

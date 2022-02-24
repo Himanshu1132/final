@@ -1,0 +1,19 @@
+@media screen and (max-width: 343px) {
+  .top_manage_course .top_manage_head h1 {
+    font-size: 35px;
+  }
+  .top_manage_body .mange_cos_body .manage_course_grid {
+    grid-template-columns: 1fr;
+  }
+  .top_manage_body
+    .mange_cos_body
+    .manage_course_grid
+    .grid_card_manage
+    .grid_card_mg_head
+    img {
+    object-fit: cover;
+  }
+  .top_manage_body .mange_cos_body {
+    padding: 0px 5px;
+  }
+}

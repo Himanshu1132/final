@@ -1,0 +1,31 @@
+.my_row {
+  margin-top: 5px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.my_row .outer {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 8px;
+  background-color: #fff;
+  font-weight: 900;
+  color: #117968;
+  transition: 0.3s ease;
+}
+.my_row .outer:hover {
+  box-shadow: 0 0 12px #eee;
+}
+.my_row .outer:nth-child(1) {
+  margin-right: 25px;
+}
+.my_row .outer .txt {
+  font-size: 15px;
+}
+.my_row .outer .count {
+  font-size: 18px;
+}

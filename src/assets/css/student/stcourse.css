@@ -1,0 +1,601 @@
+.key_model_outer {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000000a1;
+  z-index: 2000;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key_model_outer .key_model_page {
+  position: relative;
+  padding: 25px;
+  width: 50%;
+  min-height: 20vh;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.key_model_outer .key_model_page .close_key_mod {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.key_model_outer .key_model_page .close_key_mod i {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.key_model_outer .key_model_page .close_key_mod i:hover {
+  color: red;
+}
+.key_model_outer .key_model_page .inpu {
+  display: flex;
+  padding: 15px 0;
+}
+.key_model_outer .key_model_page .inpu input {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #777;
+  border-right: transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #367954;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  outline: none;
+}
+.key_model_outer .key_model_page .inpu button {
+  width: 150px;
+  border: 1px solid #777;
+  border-left: transparent;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #45ab73;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/*!!Using teacher side styles*/
+.st_top_manage_body .st_mange_cos_body {
+  width: 100%;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_cos_search {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_cos_search input {
+  padding: 9px 5px;
+  width: 400px;
+  border: 1px solid #3e9264;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: transparent;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_cos_search button {
+  background-color: #ddffec;
+  width: 50px;
+  border: 1px solid #3e9264;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: transparent;
+  cursor: pointer;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_nav {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_nav button {
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #00bf4d;
+  color: #3e9264;
+  font-weight: 600;
+  width: 120px;
+  border-radius: 20px;
+  transition: 0.3s ease-in;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_nav button:hover {
+  background-color: #00bf4d;
+  color: #fff;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_grid {
+  margin-top: 25px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_grid a {
+  text-decoration: none;
+  color: #000;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage {
+  position: relative;
+  height: 350px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage:hover {
+  box-shadow: 0px 0px 4px 8px #eeeeeeb3;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  transition: 0.5s ease;
+  background-image: linear-gradient(to left, green, black);
+  margin-bottom: 15px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  img {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head:hover
+  img {
+  opacity: 0.7;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body {
+  padding: 5px;
+}
+
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  h3 {
+  font-weight: 400;
+  color: #3e9264;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  h4 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .cs_st_tail
+  h4 {
+  font-size: 12px;
+  color: #000;
+  font-weight: 400;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button {
+  padding: 6px 0;
+  width: 125px;
+  background-color: #fff;
+  border: 1px solid #45ab73;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: 0.5s ease;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button
+  i {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button:nth-child(2) {
+  background-color: #45ab73;
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button:nth-child(2)
+  i {
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button:nth-child(1):hover {
+  background-color: #45ab73;
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button:nth-child(1):hover
+  i {
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_cs_tail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  padding: 10px 8px;
+  font-size: 13px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_cs_tail
+  h4 {
+  color: #838383;
+  font-weight: 400;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_cs_tail
+  h4
+  i {
+  margin-right: 5px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_manage_num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #367954;
+  display: flex;
+  padding: 2px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom-right-radius: 50px;
+  transition: 0.5s;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  .dura {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 7px 10px;
+  background-color: #367954;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  .dura
+  h3,
+i.cl {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  .dura
+  i {
+  margin-right: 5px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_manage_num:hover {
+  width: 60px;
+  height: 60px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 5px;
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  h3 {
+  margin-bottom: 5px;
+  text-align: right;
+  color: #fff;
+  cursor: pointer;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  h3
+  i {
+  font-size: 17px;
+  color: #fff;
+  transition: 0.5s;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna:hover
+  h3
+  i {
+  font-size: 18px;
+  transform: rotateZ(180deg);
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna:hover
+  .st_options_manage {
+  display: block;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  .st_options_manage {
+  display: none;
+  width: 130px;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  .st_options_manage
+  ul
+  li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: right;
+  font-size: 15px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: red;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  .st_options_manage
+  ul
+  a
+  li {
+  color: #000;
+  font-size: 14px;
+  color: #45ab73;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  .st_options_manage
+  ul
+  li:hover {
+  background-color: #f1f1f1;
+}
+
+.st_top_manage_body .st_cos_details {
+  background-color: #fff;
+  padding: 8px 6px;
+  border: 1px solid #bebebe;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_head {
+  padding-bottom: 8px;
+  position: relative;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 8px;
+}
+.st_top_manage_body .st_cos_details .cos_tool_bar {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #fff;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_head .cos_tool_bar h3 {
+  cursor: pointer;
+  font-size: 13px;
+  color: #000;
+  padding: 3px;
+  border: 1px solid #3e9264;
+}
+.st_top_manage_body
+  .st_cos_details
+  .st_cos_details_head
+  .cos_tool_bar
+  h3:hover {
+  background-color: #3e9264;
+  color: #fff;
+  transition: 0.5s ease;
+}
+.st_top_manage_body .st_cos_details .cos_tool_bar h3:hover i {
+  color: #fff;
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: 2s rot linear infinite;
+}
+@keyframes rot {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.st_top_manage_body .st_cos_details .st_cos_details_head h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #3e9264;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_head h4 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_body h4 {
+  font-size: 14px;
+  color: #3e9264;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_body .st_cos_details_b_mid {
+  padding: 5px;
+  width: 100%;
+  height: 250px;
+  font-size: 14px;
+  font-weight: 400;
+  overflow-y: auto;
+}
+.st_top_manage_body
+  .st_cos_details
+  .st_cos_details_body
+  .st_cos_details_b_mid
+  p {
+  color: #777777;
+  text-align: justify;
+}
+.st_top_manage_body
+  .st_cos_details
+  .st_cos_details_body
+  .st_cos_details_b_mid::-webkit-scrollbar {
+  width: 4px;
+}
+.st_top_manage_body
+  .cos_details
+  .cos_details_body
+  .cos_details_b_mid::-webkit-scrollbar-track {
+  background: transparent;
+}
+.st_top_manage_body
+  .cos_details
+  .cos_details_body
+  .cos_details_b_mid::-webkit-scrollbar-thumb {
+  background-color: #afafaf;
+  border-radius: 20px;
+  border: transparent;
+}

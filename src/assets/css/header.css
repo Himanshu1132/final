@@ -1,0 +1,148 @@
+nav {
+  width: 100%;
+  padding: 28px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+nav .column {
+  flex: 1;
+}
+nav .column .hlogo {
+  font-size: 12px;
+}
+nav .column .hlogo a {
+  text-decoration: none;
+  color: #000;
+}
+nav .column .hlogo h1 {
+  font-weight: 300;
+}
+nav .column .hlogo h1 span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #00bf4d;
+}
+nav .column:nth-child(2) {
+  flex: 2;
+}
+nav .column:nth-child(2) .navigation ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .column:nth-child(2) .navigation ul li {
+  position: relative;
+  flex: 0.3;
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s ease-in 0s;
+}
+nav .column:nth-child(2) .navigation ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.5s ease-in 0s;
+}
+nav .column:nth-child(2) .navigation ul li:before {
+  display: none;
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 1.5px;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #09a347;
+}
+nav .column:nth-child(2) .navigation ul li:hover:before {
+  display: block;
+  animation: 1s bord ease;
+}
+@keyframes bord {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+nav .column:nth-child(2) .navigation ul li a:hover {
+  color: #09a347;
+}
+nav .column .buttons {
+  text-align: right;
+}
+nav .column .buttons button {
+  width: 120px;
+  margin: 0 8px;
+  padding: 9px;
+  font-size: 13px;
+  border: none;
+  background-color: #fff;
+  font-weight: 600;
+  border: 2px solid #00bf4d;
+  border-radius: 5px;
+  transition: 0.4s ease-in;
+  cursor: pointer;
+  outline: none;
+}
+nav .column .buttons button a {
+  text-decoration: none;
+  color: #000;
+}
+nav .column .buttons a:nth-child(2) button {
+  background-color: #00bf4d;
+  color: #fff;
+}
+nav .column .buttons button:nth-child(2) a {
+  color: #fff;
+}
+nav .column .buttons button:nth-child(1):hover {
+  background-color: #00bf4d;
+  color: #fff;
+}
+nav .column .buttons button:nth-child(2):hover {
+  background-color: #04a745;
+}
+nav .column .buttons button:hover a {
+  color: #fff;
+}
+nav .column .pro_pic {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .column .pro_pic .img {
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #00bf4d;
+}
+nav .column .pro_pic .img img {
+  width: 100%;
+  height: 100%;
+}
+nav .column .ac_details_header {
+  margin-right: 10px;
+}
+nav .column .ac_details_header h3 {
+  font-size: 15px;
+  word-wrap: break-word;
+  text-align: right;
+  color: #09a347;
+}
+nav .column .ac_details_header p {
+  font-size: 13px;
+  color: #9e9e9e;
+}

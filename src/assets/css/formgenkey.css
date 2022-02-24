@@ -1,0 +1,241 @@
+.genkeysform {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.genkeysform .main_gen_form {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.genkeysform .main_gen_form form {
+  padding: 35px 25px;
+  width: 100%;
+  background-color: #fff;
+}
+.genkeysform .main_gen_form form p {
+  margin: 15px 0;
+  position: relative;
+}
+.genkeysform .main_gen_form form p label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 17px;
+  color: #00bf4d;
+  font-weight: 600;
+}
+.genkeysform .main_gen_form form p input {
+  width: 100%;
+  padding: 8px 5px;
+  color: #0a6b31;
+  outline: none;
+  border: 1px solid #c1c0c0;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.genkeysform .main_gen_form form .gen_sub {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.genkeysform .main_gen_form form .gen_sub button {
+  width: 120px;
+  padding: 8px;
+  margin-top: 15px;
+  border: 1px solid transparent;
+  background-color: #00bf4d;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+.genkeysform .main_gen_form form .gen_sub button:hover {
+  background-color: #049204;
+}
+.genkeysform .mid_row {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.genkeysform .mid_row p {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+}
+.genkeysform .mid_row button {
+  width: 130px;
+  padding: 6px;
+  background-color: #00bf4d;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.genkeysform .mid_row button:hover {
+  background-color: #07a044;
+}
+.genkeysform .mid_row button i {
+  color: #fff;
+  margin-right: 5px;
+  font-size: 12px;
+}
+.genkeysform .main_gen_form .ac_table {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.genkeysform .main_gen_form .disp_gen_keys {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.genkeysform .main_gen_form .disp_gen_keys .table_hd {
+  width: 100%;
+  max-height: 700px;
+  overflow-y: auto;
+}
+.genkeysform .main_gen_form .disp_gen_keys .table_hd::-webkit-scrollbar {
+  width: 5px;
+}
+.genkeysform .main_gen_form .disp_gen_keys .table_hd::-webkit-scrollbar-track {
+  background: transparent;
+}
+.genkeysform .main_gen_form .disp_gen_keys .table_hd::-webkit-scrollbar-thumb {
+  background-color: #afafaf;
+  border-radius: 20px;
+  border: transparent;
+}
+.genkeysform .main_gen_form .disp_gen_keys table {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+}
+.genkeysform .main_gen_form .disp_gen_keys table tr {
+  text-align: center;
+}
+.genkeysform .main_gen_form .disp_gen_keys table thead tr th {
+  position: sticky;
+  top: 0;
+  padding: 15px 12px;
+  z-index: 100;
+  background-color: #dbffe89e;
+}
+.genkeysform .main_gen_form .disp_gen_keys table thead tr:first-child {
+  background-color: #eee3;
+  color: #049204;
+}
+.genkeysform .main_gen_form .disp_gen_keys table tbody tr td:nth-child(1) {
+  background-color: #eee3;
+}
+
+.genkeysform .main_gen_form .disp_gen_keys table tbody tr td:nth-child(2) {
+  color: #049204;
+}
+.genkeysform .main_gen_form .disp_gen_keys table tr td {
+  padding: 15px 12px;
+  border-bottom: 1px solid #eee;
+}
+.genkeysform .main_gen_form .disp_gen_keys table tr td .toggle {
+  width: 40px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.genkeysform .main_gen_form .disp_gen_keys table tr td input[type="checkbox"] {
+  display: none;
+}
+.genkeysform .main_gen_form .disp_gen_keys table tr td .toggle_fill {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #eee;
+  transition: background 0.3s;
+}
+.genkeysform .main_gen_form .disp_gen_keys table tr td .toggle_fill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+.genkeysform
+  .main_gen_form
+  .disp_gen_keys
+  table
+  tr
+  td
+  input[type="checkbox"]:checked
+  ~ .toggle_fill {
+  background-color: #11af45;
+}
+.genkeysform
+  .main_gen_form
+  .disp_gen_keys
+  table
+  tr
+  td
+  input[type="checkbox"]:checked
+  ~ .toggle_fill::after {
+  transform: translateX(20px);
+}
+/*when empty*/
+.genkeysform .main_gen_form .no_keys {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.genkeysform .main_gen_form .no_keys h1 {
+  margin-bottom: 25px;
+  color: #00bf4d;
+  font-weight: 500;
+  font-size: 20px;
+}
+.genkeysform .main_gen_form .no_keys .svg {
+  width: 250px;
+}
+.genkeysform .main_gen_form .no_keys .svg img {
+  width: 100%;
+}
+
+/*tool Tip*/
+.genkeysform .main_gen_form form p .tip {
+  font-size: 12px;
+  position: absolute;
+  bottom: -25px;
+  right: 0;
+  padding: 5px 8px;
+  background-color: #fb01010d;
+  color: red;
+  border-radius: 2px;
+  z-index: 100;
+  transition: opacity 0.9s;
+  text-transform: capitalize;
+}
+.genkeysform .main_gen_form form p .hidetip {
+  opacity: 0;
+  user-select: none;
+}

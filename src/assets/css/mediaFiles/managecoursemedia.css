@@ -1,0 +1,40 @@
+@media screen and (max-width: 642px) {
+  .main_ar_course .course_head .search {
+    width: 50%;
+    display: flex;
+  }
+  .main_ar_course .course_head .search input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 526px) {
+  .empty img {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .main_ar_course .course_body {
+    grid-template-columns: 1fr;
+  }
+  .main_ar_course .course_body .course_card .cscard_head img {
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 275px) {
+  .main_ar_course .course_head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main_ar_course .course_body .course_card {
+    height: 380px;
+  }
+  .main_ar_course .course_head .crcs h2 {
+    margin-bottom: 15px;
+  }
+  .main_ar_course .course_head .search {
+    width: 100%;
+  }
+  .main_ar_course .course_body .course_card .cscard_bottom {
+    flex-direction: column;
+  }
+}
